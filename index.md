@@ -47,13 +47,12 @@ The project investigated in the following topics
 
 <img src="images/twitter-data-flow.png?raw=true"/>
 
-#### Deployment Architecture
-* Automated cloud deployement using Ansible orchestration on Docker containers
+#### Automated Cloud Deployment
+* Ansible orchestration with Docker containers
 
 <img src="images/twitter-deployment.png?raw=true"/>
 
-#### Sentiment Analysis
-* Dashboard Visualisation of historical and location sentiment data
+#### Dashboard Visualisation
 
 <img src="images/sentiment.png?raw=true"/>
 
