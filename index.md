@@ -14,11 +14,9 @@ A local program written in Python is implemented to act as a frontend to send RE
 <img src="images/full.png?raw=true"/>
 
 #### Data Visualisation
-<img src="images/fig-1.png?raw=true" width="200x" style="margin-right: 30px;"/>
-<img src="images/fig-2.png?raw=true" width="200x"/>
+<img src="images/fig-12.png?raw=true"/>
 <div style="height: 30px;"></div>
-<img src="images/fig-3.png?raw=true" width="200x" style="margin-right: 30px;"/>
-<img src="images/fig-4.png?raw=true" width="200x"/>
+<img src="images/fig-34.png?raw=true"/>
 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Django-white?logo=django)](#) [![](https://img.shields.io/badge/MySQL-white?logo=mysql)](#) [![](https://img.shields.io/badge/Docker-white?logo=docker)](#) [![](https://img.shields.io/badge/Bash-white?logo=gnubash)](#) [![](https://img.shields.io/badge/Matplotlib-white?logo=matplotlib)](#)
@@ -57,8 +55,7 @@ The project investigated in the following topics
 #### Sentiment Analysis
 * Dashboard Visualisation of historical and location sentiment data
 
-<img src="images/historical.png?raw=true" width="200x" style="margin-right: 30px;"/>
-<img src="images/location.png?raw=true" width="200x"/>
+<img src="images/sentiment.png?raw=true"/>
 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Node.js-white?logo=nodedotjs)](#) [![](https://img.shields.io/badge/Express-white?logo=express)](#
