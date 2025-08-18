@@ -1,4 +1,4 @@
-## Software projects
+## Software Projects
 
 ---
 
@@ -14,11 +14,11 @@ A local program written in Python is implemented to act as a frontend support on
 <img src="images/full.png?raw=true"/>
 
 #### Data Visualisation
-<img src="images/fig-1.png?raw=true" style="margin-right: 30px;"/>
-<img src="images/fig-2.png?raw=true"/>
+<img src="images/fig-1.png?raw=true" width="250x" style="margin-right: 30px;"/>
+<img src="images/fig-2.png?raw=true" width="250x"/>
 <div style="height: 30px;"></div>
-<img src="images/fig-3.png?raw=true" style="margin-right: 30px;"/>
-<img src="images/fig-4.png?raw=true"/>
+<img src="images/fig-3.png?raw=true" width="250x" style="margin-right: 30px;"/>
+<img src="images/fig-4.png?raw=true" width="250x"/>
 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Django-white?logo=django)](#) [![](https://img.shields.io/badge/MySQL-white?logo=mysql)](#) [![](https://img.shields.io/badge/Docker-white?logo=docker)](#) [![](https://img.shields.io/badge/Bash-white?logo=gnubash)](#) [![](https://img.shields.io/badge/Matplotlib-white?logo=matplotlib)](#)
@@ -55,10 +55,10 @@ The project investigated in the following topics
 <img src="images/twitter-deployment.png?raw=true"/>
 
 #### Sentiment Analysis
-* Dashboard Visualisation of local and historical average sentiment data
+* Dashboard Visualisation of historical and location sentiment data
 
-<img src="images/historical-sentiment.png?raw=true" style="margin-right: 30px;"/>
-<img src="images/location-sentiment.png?raw=true"/>
+<img src="images/historical.png?raw=true" width="300x" style="margin-right: 30px;"/>
+<img src="images/location.png?raw=true" width="300x"/>
 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Node.js-white?logo=nodedotjs)](#) [![](https://img.shields.io/badge/Express-white?logo=express)](#
