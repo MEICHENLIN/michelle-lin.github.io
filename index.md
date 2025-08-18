@@ -1,4 +1,4 @@
-## Portfolio
+## Software projects
 
 ---
 
@@ -11,14 +11,14 @@ This system addresses those challenges by: (i) transforming the traditional Exce
 A local program written in Python is implemented to act as a frontend support on sending RESTful requests for audit data operations and graph generation.
 
 #### Data Normalisation
-<img src="images/full.png?raw=true" width="350"/>
+<img src="images/full.png?raw=true"/>
 
 #### Data Visualisation
-<img src="images/fig-1.png?raw=true" width="210" style="margin-right: 30px;"/>
-<img src="images/fig-2.png?raw=true" width="210"/>
+<img src="images/fig-1.png?raw=true" style="margin-right: 30px;"/>
+<img src="images/fig-2.png?raw=true"/>
 <div style="height: 30px;"></div>
-<img src="images/fig-3.png?raw=true" width="210" style="margin-right: 30px;"/>
-<img src="images/fig-4.png?raw=true" width="210"/>
+<img src="images/fig-3.png?raw=true" style="margin-right: 30px;"/>
+<img src="images/fig-4.png?raw=true"/>
 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Django-white?logo=django)](#) [![](https://img.shields.io/badge/MySQL-white?logo=mysql)](#) [![](https://img.shields.io/badge/Docker-white?logo=docker)](#) [![](https://img.shields.io/badge/Bash-white?logo=gnubash)](#) [![](https://img.shields.io/badge/Matplotlib-white?logo=matplotlib)](#)
@@ -47,16 +47,18 @@ The project investigated in the following topics
 3. Store processed tweets into the distributed CouchDB nodes
 4. Visualise tweets on a dashboard implemented in Node.js and Bootstrap
 
-<img src="images/twitter-data-flow.png?raw=true" width="350"/>
+<img src="images/twitter-data-flow.png?raw=true"/>
 
 #### Deployment Architecture
 * Automated cloud deployement using Ansible orchestration on Docker containers
-<img src="images/twitter-deployment.png?raw=true" width="350"/>
+
+<img src="images/twitter-deployment.png?raw=true"/>
 
 #### Sentiment Analysis
-* Rendering 
-<img src="images/historical-sentiment.png?raw=true" width="210" style="margin-right: 30px;"/>
-<img src="images/location-sentiment.png?raw=true" width="210"/>
+* Dashboard Visualisation of local and historical average sentiment data
+
+<img src="images/historical-sentiment.png?raw=true" style="margin-right: 30px;"/>
+<img src="images/location-sentiment.png?raw=true"/>
 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Node.js-white?logo=nodedotjs)](#) [![](https://img.shields.io/badge/Express-white?logo=express)](#
