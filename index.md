@@ -4,18 +4,18 @@
 
 ### Audit Data Automation
 
-As the volume and complexity of audit data at ARPANSA (Australian Radiation Protection and Nuclear Safety Agency) increased, traditional Excel-based workflows became inefficient and unsustainable. The audit files were often unstructured, with inconsistent formats, complicated columns, and data that was difficult to interpret or analyse effectively.
+As the volume and complexity of audit data at ARPANSA (Australian Radiation Protection and Nuclear Safety Agency) increased, traditional Excel-based workflows became inefficient and unsustainable. The audit files were often unstructured, with inconsistent formats, complex columns, and data that was difficult to interpret or analyse effectively.
 
-This system addresses those challenges by: (i) transforming the traditional Excel worksheets into a normalised MySQL database schema, (ii) generating IMRT and 3DRT graphs automatically to visualise distributions of data for further analysis.
+This application server addresses these challenges by: (i) transforming the traditional Excel worksheets into a normalised MySQL database schema using simple RESTful requests, and (ii) automatically generating IMRT and 3DRT auditing graphs to visualise data distributions for further analysis.
 
-A local program written in Python is implemented to act as a frontend to send RESTful requests for audit data operations and graph generation.
+A local program written in Python serves as the user-facing frontend, supporting RESTful API calls for audit data operations and graph generation.
 
 #### Data Normalisation
 <img src="images/full.png?raw=true"/>
 
 #### Data Visualisation
 <img src="images/fig-12.png?raw=true"/>
-<div style="height: 30px;"></div>
+<!-- <div style="height: 30px;"></div> -->
 <img src="images/fig-34.png?raw=true"/>
 
 
@@ -27,32 +27,32 @@ A local program written in Python is implemented to act as a frontend to send RE
 
 ---
 
-### Twitter harvesting and Sentiment Analysis
+### Tweet Sentiment Pipeline
 
-During the COVID-19 pandemic, the Australian residents were ordered into lockdown and a large
-proportion of the public concerns have been focused on the economic impact that this pandemic
-would have. As a response, the government introduced some economic initiatives such as Jobseeker and Jobkeeper payments to provide economic support for the residents.
+During the COVID-19 pandemic, Australian residents were ordered into lockdown, and a large proportion of public concern focused on the economic impact the pandemic would have. In response, the government introduced several economic initiatives, such as JobSeeker and JobKeeper payments, to provide financial support for residents.
 
-The project investigated in the following topics
-* Observe whether tweets mentioning #jobseeker and #jobkeeper had an overall positive or negative inclination using a sentiment analysis tool [VADER-Sentiment](https://github.com/cjhutto/vaderSentiment) on social media
-* Infer which industries are most benefited by these economic schemes by aggregating sentiment for each major city and comparing with a labor market dataset
-* Infer how people's attitude towards the initiatives in a certain period by aggregating historical sentiment by time slots
+The project investigates the following topics:
+* Observing whether tweets mentioning #jobseeker and #jobkeeper show an overall positive or negative inclination using a sentiment analysis tool, [VADER-Sentiment](https://github.com/cjhutto/vaderSentiment), which is specialised for social media
+* Inferring which industries most benefited from these economic schemes by aggregating sentiment data for each major city and comparing it with a labour market dataset
+* Analysing how public attitudes towards the initiatives changed over time by aggregating historical sentiment across different time periods
 
 
 #### Data Flows
-1. Collect live and recent tweets by Twitter search/stream APIs using Python
-2. Enrich the tweets using Python sentiment library
-3. Store processed tweets into the distributed CouchDB nodes
-4. Visualise tweets on a dashboard implemented by Node.js and Bootstrap
+1. Collect live and recent tweets using Twitter Search/Stream APIs in Python
+2. Enrich the tweets using a Python-based sentiment analysis library
+3. Store processed tweets in distributed CouchDB nodes
+4. Visualise the tweets on a dashboard implemented with Node.js and Bootstrap
+
 
 <img src="images/twitter-data-flow.png?raw=true"/>
 
 #### Automated Cloud Deployment
-* Ansible orchestration with Docker containers
+* Using Ansible playbook to run Docker containers
 
 <img src="images/twitter-deployment.png?raw=true"/>
 
 #### Dashboard Visualisation
+* Time-based vs. location-based sentiment analysis
 
 <img src="images/sentiment.png?raw=true"/>
 
@@ -60,6 +60,6 @@ The project investigated in the following topics
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Node.js-white?logo=nodedotjs)](#) [![](https://img.shields.io/badge/Express-white?logo=express)](#
 ) [![](https://img.shields.io/badge/Bootstrap-white?logo=bootstrap)](#) [![](https://img.shields.io/badge/CouchDB-white?logo=apachecouchdb)](#) [![](https://img.shields.io/badge/Ansible-white?logo=ansible)](#) [![](https://img.shields.io/badge/Docker-white?logo=docker)](#) [![](https://img.shields.io/badge/Bash-white?logo=gnubash)](#) [![](https://img.shields.io/badge/NumPy-white?logo=numpy)](#) [![](https://img.shields.io/badge/pandas-white?logo=pandas)](#)
 
-[View code on GitHub](link)
+[View code on GitHub](https://github.com/MEICHENLIN/tweet-sentiment-pipeline)
 
 ---
