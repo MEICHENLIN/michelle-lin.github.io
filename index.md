@@ -1,14 +1,14 @@
-## Software Projects
+# Software Projects
 
 ---
 
-### Audit Data Automation
+## Audit Data Automation
 
 As the volume and complexity of audit data at ARPANSA (Australian Radiation Protection and Nuclear Safety Agency) increased, traditional Excel-based workflows became inefficient and unsustainable. The audit files were often unstructured, with inconsistent formats, complex columns, and data that was difficult to interpret or analyse effectively.
 
-This application server addresses these challenges by: (i) transforming the traditional Excel worksheets into a normalised MySQL database schema using simple RESTful requests, and (ii) automatically generating IMRT and 3DRT auditing graphs to visualise data distributions for further analysis.
-
-A local program written in Python serves as the user-facing frontend, supporting RESTful API calls for audit data operations and graph generation.
+This application server addresses these challenges by:
+* Directly transforming the traditional Excel worksheets into a normalised MySQL database schema using simple RESTful API calls
+* Automatically generating IMRT and 3DRT auditing graphs to visualise data distributions for further analysis
 
 #### Data Normalisation
 <img src="images/full.png?raw=true"/>
@@ -27,7 +27,7 @@ A local program written in Python serves as the user-facing frontend, supporting
 
 ---
 
-### Tweet Sentiment Pipeline
+## Tweet Sentiment Pipeline
 
 During the COVID-19 pandemic, Australian residents were ordered into lockdown, and a large proportion of public concern focused on the economic impact the pandemic would have. In response, the government introduced several economic initiatives, such as JobSeeker and JobKeeper payments, to provide financial support for residents.
 
@@ -41,7 +41,7 @@ The project investigates the following topics:
 1. Collect live and recent tweets using Twitter Search/Stream APIs in Python
 2. Enrich the tweets using a Python-based sentiment analysis library
 3. Store processed tweets in distributed CouchDB nodes
-4. Visualise the tweets on a dashboard implemented with Node.js and Bootstrap
+4. Visualise the tweets on a dashboard implemented with Node.js, Express and Bootstrap library
 
 
 <img src="images/data-flow.png?raw=true"/>
