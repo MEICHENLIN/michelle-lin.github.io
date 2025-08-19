@@ -44,12 +44,12 @@ The project investigates the following topics:
 4. Visualise the tweets on a dashboard implemented with Node.js and Bootstrap
 
 
-<img src="images/twitter-data-flow.png?raw=true"/>
+<img src="images/data-flow.png?raw=true"/>
 
 #### Automated Cloud Deployment
 * Using Ansible playbook to run Docker containers
 
-<img src="images/twitter-deployment.png?raw=true"/>
+<img src="images/deployment.png?raw=true"/>
 
 #### Dashboard Visualisation
 * Time-based vs. location-based sentiment analysis
