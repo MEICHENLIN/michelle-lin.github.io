@@ -41,7 +41,7 @@ The project investigates the following topics:
 1. Collect live and recent tweets using Twitter Search/Stream APIs in Python
 2. Enrich the tweets using a Python-based sentiment analysis library
 3. Store processed tweets in distributed CouchDB nodes
-4. Visualise the tweets on a dashboard implemented with Node.js, Express and Bootstrap library
+4. Visualise the tweets on a dashboard implemented with Node.js, Express and Bootstrap
 
 
 <img src="images/data-flow.png?raw=true"/>
